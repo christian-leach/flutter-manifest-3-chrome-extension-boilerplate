@@ -1,0 +1,39 @@
+{
+    "name": "flutter_manifest_3_chrome_extension_boilerplate",
+    "short_name": "flutter_manifest_3_chrome_extension_boilerplate",
+    "version": "1.2",
+    "manifest_version": 3,
+    "description": "A new Flutter project.",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'",
+        "sandbox": "sandbox allow-scripts; script-src 'self' 'https://apis.google.com/' 'https://www.electraport.com/'; object-src 'self'"
+      },
+      "action": {
+        "default_popup": "index.html"
+      },
+   
+    
+    "icons": {
+        "16": "./ep-icon-16.png",
+        "24": "./ep-icon-24.png",
+        "32": "./ep-icon-32.png",
+        "48": "./ep-icon-48.png",
+        "96": "./ep-icon-96.png",
+        "128": "./ep-icon-128.png",
+        "256": "./ep-icon-256.png"
+      },
+      "permissions": [
+        "tabs",
+        "bookmarks",
+        "unlimitedStorage"
+      ],
+      "optional_permissions": [
+        
+      ],
+      "host_permissions": [
+        "http://www.electraport.com/"
+      ],
+      "optional_host_permissions": [
+        "*://*/*"
+      ]
+}
