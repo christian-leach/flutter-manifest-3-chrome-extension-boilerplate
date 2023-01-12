@@ -1,0 +1,1 @@
+# flutter-manifest-3-chrome-extension-boilerplate
